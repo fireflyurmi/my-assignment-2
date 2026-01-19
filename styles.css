@@ -74,6 +74,9 @@ nav ul li a:hover{
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
 }
+.hamburger-img{
+  display: none;
+}
 
 /* hero section styles */
 
