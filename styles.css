@@ -426,6 +426,38 @@ nav ul li a:hover{
     background-color: #4a3a6a;
 }
 
+/* footer section styles */
+.foot{
+  background: url(assets/images/footer-bg.png) center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+.foot-logo{
+  color: #fff;
+}
+.foot-logo h1 span{
+    background: linear-gradient(90deg,rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+}  
+.foot-items{
+  display: flex;
+  color: #cfcfe6;
+  align-items: center;
+  gap: 40px;
+  padding: 25px;
+} 
+.icon-text{
+  font-size: 0.8rem;
+}
+.copyright{
+  color: #cfcfe6;
+  font-size: 0.8rem;
+}
+
 
 
 
